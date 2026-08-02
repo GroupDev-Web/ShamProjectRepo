@@ -1,0 +1,5 @@
+FXUltra is a lightweight, no-frills file explorer for Android. It opens straight into your device's
+storage root and lets you browse folders, tap a file to open it with whatever app your system already
+associates with its type, and long-press any entry to delete it with a confirmation prompt. There's no
+account, no ads, and no background service — just a fast local file browser built for older, lower-spec
+devices that can't afford anything heavier.

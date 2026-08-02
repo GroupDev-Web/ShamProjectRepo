@@ -1,0 +1,6 @@
+LowCode is an autonomous coding agent for Android, built on the same LowFrame account and action protocol
+as the LowCode VS Code extension. Sign in, pick a project folder on your device, and chat with it about
+what you want built — it writes real files into that folder for you, asking before every write and asking
+you clarifying questions when something is genuinely ambiguous. There's no shell on stock Android, so it
+can't run build commands like the desktop version — it focuses purely on writing the files your project
+needs.

@@ -1,0 +1,4 @@
+FXStore is a small, F-Droid-style catalog browser for Android. It lists apps from a catalog with search
+(debounced as you type), shows a separate tab of APKs already sitting on your device's storage so you can
+install them without hunting through a file manager, and can refresh its catalog on demand. Built as a
+companion to FXUltra for the same class of older, low-spec devices.
