@@ -13,7 +13,7 @@
       <span class="mark" aria-hidden="true"></span>
       <div>
         <h1>The Sham Project</h1>
-        <p class="tagline">A dead-simple app catalog, read straight out of a GitHub repo.</p>
+        <p class="tagline">A dead-simple Android app catalog, read straight out of a GitHub repo.</p>
       </div>
     </div>
     <a class="repo-link" href="https://github.com/GroupDev-Web/ShamProjectRepo" target="_blank" rel="noopener">
@@ -22,13 +22,22 @@
   </header>
 
   <main>
-    <div class="toolbar">
-      <input id="search" type="search" placeholder="Search apps…" autocomplete="off" />
-      <span id="deviceNote" class="device-note"></span>
-    </div>
+    <section class="hero">
+      <p class="hero-lede">
+        Install The Sham Project once, then browse and install everything in the catalog from inside it —
+        it detects your Android version and only shows what actually supports your device.
+      </p>
+      <a class="download-hero" href="the-sham-project.apk" download>
+        Download The Sham Project APK
+      </a>
+      <p class="hero-note">Works on Android 4.4.4 (KitKat) and up.</p>
+    </section>
 
-    <div id="status" class="status">Loading catalog…</div>
-    <div id="grid" class="grid" hidden></div>
+    <section class="catalog-preview">
+      <h2>Currently in the catalog</h2>
+      <div id="status" class="status">Loading…</div>
+      <ul id="appList" class="app-list" hidden></ul>
+    </section>
   </main>
 
   <footer>
