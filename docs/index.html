@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Sham Project</title>
+  <meta name="description" content="A dead-simple, folder-based Android app catalog." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark" aria-hidden="true"></span>
+      <div>
+        <h1>The Sham Project</h1>
+        <p class="tagline">A dead-simple app catalog, read straight out of a GitHub repo.</p>
+      </div>
+    </div>
+    <a class="repo-link" href="https://github.com/GroupDev-Web/ShamProjectRepo" target="_blank" rel="noopener">
+      View the repo
+    </a>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search apps…" autocomplete="off" />
+      <span id="deviceNote" class="device-note"></span>
+    </div>
+
+    <div id="status" class="status">Loading catalog…</div>
+    <div id="grid" class="grid" hidden></div>
+  </main>
+
+  <footer>
+    <p>
+      Each app is a folder in the repo with <code>desc.desc</code>, <code>app.apk</code>, and
+      <code>version.conf</code>. This page reads that repo directly — no server, no database.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
